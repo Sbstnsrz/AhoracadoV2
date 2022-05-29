@@ -4,12 +4,12 @@
 .btn-base{
     cursor: pointer;
     height: 67px;
-    margin: 10px;
     padding: 24px;
     border-radius: 24px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    margin: 15px 0;
 
 }
 .btn1{
@@ -37,13 +37,15 @@
 }
 .nuevoJuego, .desistir, .volverAlInicio,
 .cancelar, .guardarYEmpezar{
-    width: 80%;
-    max-width: 332px;  
+    width: 35%;
+    max-width: 332px;
+    min-width: 150px;  
 }
 
 #keyboard-control{
     cursor: pointer;
     font-size: 30px;
+    padding: 10px;
 }
 
 #keyboard{
