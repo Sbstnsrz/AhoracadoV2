@@ -20,6 +20,9 @@ function keysPanelMessage(type){
     }else if(type=="search"){
         keysPanel.className = "keys-panel message";
         keysPanel.textContent = "Eligiendo palabra...";
+    }else if(type=="failToConnect"){
+        keysPanel.className = "keys-panel message";
+        keysPanel.textContent = "No funciona 😭";
     }
 }
 
